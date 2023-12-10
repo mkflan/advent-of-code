@@ -1,0 +1,20 @@
+[package]
+name = "day15"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dhat.workspace = true
+
+[dev-dependencies]
+divan.workspace = true
+
+[[bench]]
+name = "day15-bench"
+path = "bench/benchmarks.rs"
+harness = false
+
+[features]
+dhat-heap = []

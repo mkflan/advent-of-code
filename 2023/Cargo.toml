@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = ["day*"]
+default-members = ["day*"]
+
+[workspace.dependencies]
+itertools = "0.12.0"
+dhat = "0.3.2"
+divan = "0.1.5"
+nom = "7.1.3"
+nom-supreme = "0.8.0"
+rayon = "1.8.0"
+
+[profile.profiling]
+inherits = "release"
+debug = 2
