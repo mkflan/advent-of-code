@@ -7,6 +7,9 @@ edition = "2021"
 
 [dependencies]
 dhat.workspace = true
+nom.workspace = true
+nom-supreme.workspace = true
+itertools.workspace = true
 
 [dev-dependencies]
 divan.workspace = true
